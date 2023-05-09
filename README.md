@@ -1,5 +1,5 @@
 # Projeto WEB - HTML, CSS, JAVASCRIPT e DOCKER
-Este probjeto está sendo desenvolvido para estudos com desenvolvimento WEB, e também para testar projetos que rodam em containers (dockers).
+Este projeto está sendo desenvolvido para estudos com desenvolvimento WEB, e também para testar projetos que rodam em containers (dockers).
 
 # Como baixar o projeto
 Clone o projeto em sua máquina através do comando:
