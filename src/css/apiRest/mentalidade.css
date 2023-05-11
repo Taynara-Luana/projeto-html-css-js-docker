@@ -1,0 +1,32 @@
+body{
+    background-color:aquamarine;
+    font-size: 18px;
+}
+
+.tituloPrincipal{
+    text-align: center;
+    background-color: azure;
+}
+
+.textoPrincipal{
+    text-align: center;
+}
+
+.mapa_mental_mentalidade{
+    margin: auto;
+    display: block;
+}
+
+h3{
+    text-align: center;
+    background-color: azure; 
+}
+
+.topicosMentalidadeQa{
+    text-align: justify;
+}
+
+.fluxo_exemplificado_mentalidade{
+    margin: auto;
+    display: block;
+}
