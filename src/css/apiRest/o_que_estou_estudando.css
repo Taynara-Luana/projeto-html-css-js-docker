@@ -1,36 +1,90 @@
-body{
-    background: #D8BFD8;
+body {
+    background: #B0C4DE;
 }
+
 header {
-	background: #FFF0F5;
-	padding: 20px 0;
+    background: #FFF0F5;
+    padding: 20px 0;
 }
 
 .caixa {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.logo_menu{
+.logo_menu {
     width: 20%;
 }
 
 nav {
-	position: absolute;
-	top: 110px;
-	right: 0;
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 nav li {
-	display: inline;
-	margin: 0 0 0 15px;
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
 nav a {
-	text-transform: uppercase;
-	color: #000000;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: #000000;
+    transition: 2s;
+}
+
+.estudos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.estudos li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.estudos li:hover {
+    border-color: #5b198a;
+}
+
+.estudos li:active {
+    border-color: #3ca58c;
+}
+
+.estudos li:hover h2 {
+    font-size: 40px;
+}
+
+.estudos h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.estudos p {
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
 }
