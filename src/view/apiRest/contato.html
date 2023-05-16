@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../../css/apiRest/reset.css">
+    <link rel="stylesheet" href="../../css/apiRest/contato.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="../../images//logo_pagina_inicial.jpeg" class="logo_menu"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="o_que_estou_estudando.html">O que estou estudando?</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label for="nomeCompleto">Nome Completo</label>
+            <input type="text" id="nomeCompleto" class="input-padrao">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="63" rows="10" class="input-padrao"></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+                        id="radio-telefone">Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp"
+                        id="radio-whatsapp">Whatsapp</label>
+            </div>
+
+            <div>
+                <p>Qual horário prefere ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
+
+            <label>
+                <input type="checkbox" class="checkbox"> Gostaria de receber nossas novidades por email?
+            </label>
+
+            <input type="submit" value="Enviar Formulário">
+        </form>
+    </main>
+</body>
+
+</html>
