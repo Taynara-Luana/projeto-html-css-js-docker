@@ -2,7 +2,7 @@ body{
     background: #D8BFD8;
 }
 header {
-	background: #FFF0F5;
+	background: #1c4c74;
 	padding: 20px 0;
 }
 
@@ -29,8 +29,13 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #f0efef;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: aliceblue;
+	color: black;
 }

@@ -1,10 +1,9 @@
-body {
-    background: #B0C4DE;
+body{
+    background: #D8BFD8;
 }
-
 header {
-    background: #FFF0F5;
-    padding: 20px 0;
+	background: #1c4c74;
+	padding: 20px 0;
 }
 
 .caixa {
@@ -29,16 +28,16 @@ nav li {
 }
 
 nav a {
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+	text-transform: uppercase;
+	color: #f0efef;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
 }
 
 nav a:hover {
-    color: #C78C19;
-    text-decoration: underline;
+	background-color: aliceblue;
+	color: black;
 }
 
 main a:hover {

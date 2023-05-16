@@ -11,8 +11,8 @@
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="../../images//logo_pagina_inicial.jpeg" class="logo_menu"></h1>
-
+            <h1><img src="../../images/logo_principal.png" class="logo_menu"></h1>
+            
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -26,16 +26,16 @@
     <main>
         <form>
             <label for="nomeCompleto">Nome Completo</label>
-            <input type="text" id="nomeCompleto" class="input-padrao">
+            <input type="text" id="nomeCompleto" class="input-padrao" required>
 
             <label for="email">Email</label>
-            <input type="email" id="email" class="input-padrao">
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
             <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone" class="input-padrao">
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
             <label for="mensagem">Mensagem</label>
-            <textarea cols="63" rows="10" class="input-padrao"></textarea>
+            <textarea cols="63" rows="10" class="input-padrao" required></textarea>
 
             <div>
                 <p>Como prefere o nosso contato?</p>
@@ -45,7 +45,7 @@
                         id="radio-telefone">Telefone</label>
 
                 <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp"
-                        id="radio-whatsapp">Whatsapp</label>
+                        id="radio-whatsapp" checked>Whatsapp</label>
             </div>
 
             <div>
@@ -58,7 +58,7 @@
             </div>
 
             <label>
-                <input type="checkbox" class="checkbox"> Gostaria de receber nossas novidades por email?
+                <input type="checkbox" class="checkbox" checked> Gostaria de receber nossas novidades por email?
             </label>
 
             <input type="submit" value="Enviar Formulário">

@@ -1,10 +1,10 @@
 body{
-    background-color:#B0E0E6;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #D8BFD8;
 }
 
-header{
-    background-color:rgb(255, 255, 253);
+header {
+	background: #1c4c74;
+	padding: 20px 0;
 }
 
 .logo_menu{
@@ -22,12 +22,17 @@ nav li{
     margin: 0 0 0 15px;
 }
 
-nav a{
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+nav a {
+	text-transform: uppercase;
+	color: #f0efef;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: aliceblue;
+	color: black;
 }
 
 .tituloPrincipal{
