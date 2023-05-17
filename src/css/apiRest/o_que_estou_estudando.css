@@ -1,15 +1,20 @@
-body{
-    background: #D8BFD8;
+body {
+	background: #D8BFD8;
 }
+
 header {
 	background: #1c4c74;
 	padding: 20px 0;
 }
 
 .caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo_menu {
+	width: 20%;
 }
 
 .logo_menu {
@@ -28,16 +33,16 @@ nav li {
 }
 
 nav a {
-	text-transform: uppercase;
-	color: #f0efef;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
+    text-transform: uppercase;
+    color: #f0efef;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 nav a:hover {
-	background-color: aliceblue;
-	color: black;
+    background-color: aliceblue;
+    color: black;
 }
 
 main a:hover {
@@ -83,7 +88,11 @@ main a:hover {
     font-size: 18px;
 }
 
-footer{
+.footer {
     text-align: center;
     background-color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }

@@ -1,6 +1,7 @@
-body{
-    background: #D8BFD8;
+body {
+	background: #D8BFD8;
 }
+
 header {
 	background: #1c4c74;
 	padding: 20px 0;
@@ -12,22 +13,22 @@ header {
 	margin: 0 auto;
 }
 
-.logo_menu{
-    width: 20%;
+.logo_menu {
+	width: 20%;
 }
 
-nav {
+header nav {
 	position: absolute;
 	top: 110px;
 	right: 0;
 }
 
-nav li {
+header nav li {
 	display: inline;
 	margin: 0 0 0 15px;
 }
 
-nav a {
+header nav a {
 	text-transform: uppercase;
 	color: #f0efef;
 	font-weight: bold;
@@ -35,7 +36,16 @@ nav a {
 	text-decoration: none;
 }
 
-nav a:hover {
+header nav a:hover {
 	background-color: aliceblue;
 	color: black;
+}
+
+.footer {
+	text-align: center;
+	background-color: white;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }

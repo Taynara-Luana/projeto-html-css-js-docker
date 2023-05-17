@@ -1,5 +1,5 @@
-body{
-    background: #D8BFD8;
+body {
+	background: #D8BFD8;
 }
 
 header {
@@ -7,58 +7,72 @@ header {
 	padding: 20px 0;
 }
 
-.logo_menu{
-    width: 10%;
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
-nav{
+.logo_menu {
+	width: 20%;
+}
+nav {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-nav li{
+nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
 
 nav a {
-	text-transform: uppercase;
-	color: #f0efef;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
+    text-transform: uppercase;
+    color: #f0efef;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 nav a:hover {
-	background-color: aliceblue;
-	color: black;
+    background-color: aliceblue;
+    color: black;
 }
 
-.tituloPrincipal{
+.tituloPrincipal {
     text-align: center;
     background-color: azure;
 }
 
-.textoPrincipal{
+.textoPrincipal {
     text-align: center;
 }
 
-.mapa_mental_mentalidade{
+.mapa_mental_mentalidade {
     margin: auto;
     display: block;
 }
 
-h3{
+h3 {
     text-align: center;
-    background-color: azure; 
+    background-color: azure;
 }
 
-.topicosMentalidadeQa{
+.topicosMentalidadeQa {
     text-align: justify;
 }
 
-.fluxo_exemplificado_mentalidade{
+.fluxo_exemplificado_mentalidade {
     margin: auto;
     display: block;
+}
+
+.footer {
+	text-align: center;
+	background-color: white;
+	width: 100%;
+	position:static;
+	bottom: 0;
+	left: 0;
 }

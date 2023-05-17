@@ -1,6 +1,7 @@
-body{
-    background: #D8BFD8;
+body {
+	background: #D8BFD8;
 }
+
 header {
 	background: #1c4c74;
 	padding: 20px 0;
@@ -12,8 +13,8 @@ header {
 	margin: 0 auto;
 }
 
-.logo_menu{
-    width: 20%;
+.logo_menu {
+	width: 20%;
 }
 
 nav {
@@ -40,28 +41,38 @@ nav a:hover {
 	color: black;
 }
 
-main{
-    width: 940px;
-    margin: 0 auto;
+main {
+	width: 940px;
+	margin: 0 auto;
 }
 
-form{
-    margin: 40px 0;
+form {
+	margin: 40px 0;
 }
 
-form label, form p{
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
+form label,
+form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
 }
 
-.input-padrao{
-    display: block;
-    margin:0 0 10px;
-    padding: 10px 25px;
-    width: 50%;
+.input-padrao {
+	display: block;
+	margin: 0 0 10px;
+	padding: 10px 25px;
+	width: 50%;
 }
 
-.checkbox{
-    margin: 20px 0;
+.checkbox {
+	margin: 20px 0;
+}
+
+.footer {
+	text-align: center;
+	background-color: white;
+	width: 100%;
+	position:static;
+	bottom: 0;
+	left: 0;
 }
