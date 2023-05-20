@@ -36,3 +36,19 @@ body {
     font-size: 24px;
     text-align: justify;
 }
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links_link{
+    background-color: #36B477;
+    color: #F5F5F5;
+    text-decoration: none;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+}
