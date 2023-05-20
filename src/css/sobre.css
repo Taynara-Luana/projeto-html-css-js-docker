@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: content-box;
+    background-color: #1B2D19;
+    color: #DDFDF9;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.cabecalho{
+    padding: 5% 0 0 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho__menu__link{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#e9891c;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover{
+    color: #ddebdc;
+}
