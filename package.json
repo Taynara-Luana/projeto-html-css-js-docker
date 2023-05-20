@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cypress": "^12.12.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "name": "projetopessoal",
+  "description": "Este projeto está sendo desenvolvido para estudos com desenvolvimento WEB, e também para testar projetos que rodam em containers (dockers).",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "author": "Taynara Luana",
+  "license": "ISC"
+}
