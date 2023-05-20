@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: content-box;
+    background-color: #1B2D19;
+    color: #DDFDF9;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.apresentacao{
+    margin: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    text-align: center;
+}
+
+.tituloPrincipal {
+    color: #29FEA5;
+}
+
+.apresentacao__conteudo__texto {
+    color: #DDFDF9;
+    font-size: 24px;
+    text-align: justify;
+}
