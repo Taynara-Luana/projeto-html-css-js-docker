@@ -39,39 +39,43 @@ body {
     color: var(--cor-hover);
 }
 
-.apresentacao {
-    padding: 5% 15%;
+.principal {
+    padding: 5% 10%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 82px;
 }
 
-.apresentacao__conteudo {
+.principal__dados__pessoais {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 10px;
 }
 
-.apresentacao__conteudo__titulo {
+.principal__dados__pessoais__titulo {
     font-size: 2.25rem;
     text-align: center;
 }
 
-.tituloPrincipal {
-    color: var(--cor-terceiaria);
+.principal__dados__pessoais label {
+    font-size: 1.2rem;
 }
 
-.apresentacao__conteudo__texto {
-    color: var(--cor-terceiaria-);
-    font-size: 1.5rem;
-    text-align: justify;
+.principal__dados__pessoais input {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.principal__dados__pessoais textarea {
+    border-radius: 10px;
 }
 
 .apresentacao__links {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .apresentacao__links_link {
@@ -91,10 +95,6 @@ body {
     color: var(--cor-primaria);
 }
 
-.apresentacao__imagem {
-    width: 50%;
-}
-
 .rodape {
     padding: 24px;
     font-size: 1.5rem;
@@ -110,16 +110,16 @@ body {
         padding: 10%;
     }
 
-    .cabecalho__menu{
+    .cabecalho__menu {
         justify-content: center;
     }
 
-    .apresentacao {
+    .principal {
         flex-direction: column-reverse;
         padding: 5%;
     }
 
-    .apresentacao__conteudo{
+    .principal__dados__pessoais {
         width: auto;
     }
-}   
+}
