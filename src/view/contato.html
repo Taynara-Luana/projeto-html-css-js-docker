@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/contato.css">
 
     <title>Contato</title>
 </head>
+
 <body>
 
     <header class="cabecalho">
@@ -19,12 +21,33 @@
         </nav>
     </header>
 
-    <main>
-        
-    </main>
-    <footer>
+    <main class="principal">
+        <section class="principal__dados__pessoais">
+            <h1 class="principal__dados__pessoais__titulo">Por favor, informe seus dados</h1>
 
+            <label>Nome Completo</label>
+                <input type="text" id="nomeCompleto" placeholder="Nome Completo">
+
+                <label>Email</label>
+                <input type="text" id="emailContato" placeholder="Email">
+
+                <label>Telefone/ Celular</label>
+                <input type="text" id="nomeCompleto" placeholder="(XX)XXXXX-XXXX">
+
+                <label>Descreva os motivos do seu contato:</label>
+                <textarea>Digite Aqui</textarea>
+
+                <div class="apresentacao__links">
+                    <a class="apresentacao__links_link" href="#" id="btnEnviarDadosPessoais">Enviar</a>
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Taynara Luana</p>
     </footer>
-    
+
 </body>
+
 </html>
